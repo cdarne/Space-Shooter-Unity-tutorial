@@ -6,7 +6,6 @@ public class DestroyByContact : MonoBehaviour
     public GameObject explosion;
     public GameObject playerExplosion;
     public int scoreValue;
-
     GameController gameController;
 
     void Start()
@@ -34,6 +33,7 @@ public class DestroyByContact : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             Instantiate(playerExplosion, other.transform.position, other.transform.rotation);
+            gameController.GameOver();
         } else
         {
             gameController.AddScore(scoreValue);
