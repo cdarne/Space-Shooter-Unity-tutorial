@@ -1,16 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroyByContact.cs">
-    <Files>
-      <File FileName="Assets/Scripts/DestroyByContact.cs" Line="11" Column="20" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Done" expanded="True">
-              <Node name="Done_Scripts" expanded="True" />
-            </Node>
             <Node name="Scripts" expanded="True">
               <Node name="DestroyByContact.cs" selected="True" />
             </Node>
